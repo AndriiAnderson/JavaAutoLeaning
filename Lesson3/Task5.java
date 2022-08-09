@@ -3,9 +3,6 @@ public class Task5 {
 		String a = "hop";
 		String b = "hello";
 		if (a.length() < b.length()) 
-		 System.out.println(a.concat(b.concat(a)));
-		
-		
-		
+		 System.out.println(String.join("", a, b, a));
 	}
 }

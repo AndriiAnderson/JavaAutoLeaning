@@ -6,11 +6,8 @@ public class Task1 {
 		
 		if (a.length() > 2) {
 			System.out.println(a.substring(0, 2));
-			} else if (a.length() > 0) {
+			} else {
 				System.out.println(a);
-				} else 
-				System.out.println("");
-		
-		 
-	}
+			} 
+		}
 }
