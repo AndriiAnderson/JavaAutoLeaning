@@ -1,3 +1,7 @@
+
+
+//Class for Task7
+
 package Lesson4;
 
 public class Cow {

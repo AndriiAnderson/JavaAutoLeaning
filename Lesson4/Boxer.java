@@ -1,3 +1,7 @@
+
+
+//Class for Task2
+
 package Lesson4;
 
 public class Boxer {

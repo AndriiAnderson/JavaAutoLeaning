@@ -1,4 +1,6 @@
-//Task6
+
+
+//Class for Task6
 
 package Lesson4;
 
