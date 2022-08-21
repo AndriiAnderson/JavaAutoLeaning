@@ -17,7 +17,7 @@ public class Boxer {
     }
 
     boolean fight (Boxer anotherBoxer) {
-        if (total > anotherBoxer.total)  return  true;
-        else  return  false;
+        return total > anotherBoxer.total;
+
     }
 }

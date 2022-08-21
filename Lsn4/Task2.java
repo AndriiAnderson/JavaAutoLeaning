@@ -5,10 +5,10 @@ public class Task2 {
         Boxer ourBoxer = new Boxer( 22, 77, 80);
         Boxer anotherBoxer = new Boxer( 35, 88 , 50);
 
-        if (ourBoxer.fight(anotherBoxer) == true)
+        if (ourBoxer.fight(anotherBoxer))
             System.out.println("Your boxer's won!");
-        if (anotherBoxer.fight(ourBoxer) == true)
-            System.out.println("Your boxer's won!");
+        if (!ourBoxer.fight(anotherBoxer))
+            System.out.println("Your boxer's lost!");
 
     }
 }
