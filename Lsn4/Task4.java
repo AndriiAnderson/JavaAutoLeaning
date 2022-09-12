@@ -4,12 +4,18 @@ public class Task4 {
 
     public static void main(String args[]) {
 
-        StaticCalculator sC1 = new StaticCalculator(1, 1 , "Sum1");
-        StaticCalculator sC2 = new StaticCalculator(2, 2 , "Sum2");
-        //StaticCalculator sC3 = new StaticCalculator(2, 2 );
+        StaticCalculator sc1 = new StaticCalculator(100, 20 , "+");
+        StaticCalculator sc2 = new StaticCalculator(100, 20 , "-");
+        StaticCalculator sc3 = new StaticCalculator(100, 20 , "*");
+        StaticCalculator sc4 = new StaticCalculator(100, 20 , "/");
 
-        System.out.println( sC1.str + " = " + sC1.calculate());
-        System.out.println( sC2.str + " = " + sC2.calculate());
-
+        //Addition
+        System.out.println(sc1.calculate());
+        //Subtraction
+        System.out.println(sc2.calculate());
+        //Multiplication
+        System.out.println(sc3.calculate());
+        //Division
+        System.out.println(sc4.calculate());
     }
 }

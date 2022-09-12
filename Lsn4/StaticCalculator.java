@@ -7,12 +7,24 @@ public class StaticCalculator {
     double secondValue;
     String str;
 
-    StaticCalculator (double fV, double sV, String s) {
+    StaticCalculator(double fV, double sV, String s) {
         firstValue = fV;
         secondValue = sV;
         str = s;
     }
+
     double calculate() {
-        return firstValue + secondValue;
+        switch (this.str) {
+            case "+":
+                return this.firstValue + this.secondValue;
+            case "-":
+                return this.firstValue - this.secondValue;
+            case "*":
+                return this.firstValue * this.secondValue;
+            case "/":
+                return this.firstValue / this.secondValue;
+            default:
+                return 0;
+        }
     }
 }
